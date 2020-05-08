@@ -1,7 +1,7 @@
 # CBP-16 Simulation and BPU Analysis
 
 <p align="center">
-    <img src="static/cbp_results.png" width="500px" />
+    <img src="static/cbp_results.png" width="700px" />
 </p>
 
 This project makes use of the code provided from the 5th Championship Branch Prediction
@@ -19,7 +19,7 @@ evaluated using the 200 training traces and 440 evaluation traces from CBP-16 (o
 traces in the BT9 format).
 
 <p align="center">
-    <img src="static/pc-wise_attribute_viz.png" width="666px" />
+    <img src="static/pc-wise_attribute_viz.png" width="560px" />
 </p>
 
 ### Installation
