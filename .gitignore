@@ -1,0 +1,27 @@
+# Ignore files without dots in them
+*
+!/**/
+!*.*
+
+# Data files
+*.csv
+*.tar
+*.gz
+*.dat
+*.h5
+MD5SUM.txt
+.md5sum_verified
+
+# Project metadata
+.idea/
+
+# Downloaded/generated files
+cbp2016.eval/
+
+# C/C++
+*.o
+!Makefile
+
+# Python
+*.pyc
+__pycache__/

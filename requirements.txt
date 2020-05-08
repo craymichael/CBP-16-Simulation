@@ -1,0 +1,11 @@
+# Pandas and tables for storing as hdf
+pandas
+tables
+tqdm
+
+numpy
+matplotlib
+seaborn
+# You can replace this backend with what you want but assuming you won't read this, this
+# will take care of not being able to see things and having to figure it out yourself...
+PyQt5
