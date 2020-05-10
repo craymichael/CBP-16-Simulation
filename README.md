@@ -30,7 +30,7 @@ boost libraries) for setting up the original CBP-16 code and pulling in trace fi
     ```shell script
     cd scripts
     ./setup_cbp16.sh
-   cd ..
+    cd ..
     ```
 3. Run the following to build the simulator with `Python` bindings and simulator that
 logs prediction data to binary files.
@@ -60,7 +60,7 @@ $ ./simpython
 usage: ./simpython <trace> [<predictor_module>]
 $ # Example usage (for default dummy predictor):
 $ PYTHONPATH=src/simpython/ ./simpython ../cbp2016.eval/traces/LONG_SERVER-1.bt9.trace.gz
-$ $ Example usage (for custom my_predictor.py with PREDICTOR class in the same directory):
+$ # Example usage (for custom my_predictor.py with PREDICTOR class in the same directory):
 $ PYTHONPATH=. ./simpython ../cbp2016.eval/traces/LONG_SERVER-1.bt9.trace.gz my_predictor.py
 ```
 Setting the `PYTHONPATH` environmental variable is important to informing the program where
