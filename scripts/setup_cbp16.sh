@@ -15,6 +15,7 @@ echo Script running from "\"$DIR\""
 # Pull each file if it is needed in parallel
 cd "${DIR}/../data/"
 
+echo "If the URL http://hpca23.cse.tamu.edu/cbp2016/ does not resolve for you, follow the instructions for data download in the README instead!"
 URLS=('http://hpca23.cse.tamu.edu/cbp2016/cbp2016.final.tar.gz'
       'http://hpca23.cse.tamu.edu/cbp2016/trainingTraces.Final.tar'
       'http://hpca23.cse.tamu.edu/cbp2016/evaluationTraces.Final.tar'
