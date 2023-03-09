@@ -25,7 +25,12 @@ traces in the BT9 format).
 ### Installation
 
 1. Clone this repository
-2. Run the following (may prompt for `sudo` password for dependency installation (e.g.,
+2. As of 2023-03-09, it looks like the files hosted at [http://hpca23.cse.tamu.edu/cbp2016/](http://hpca23.cse.tamu.edu/cbp2016/)
+are no longer available. If this is still the case, then the following step will not
+work without manual intervention. Proceed by downloading all of the files from
+[this Google Drive link](https://drive.google.com/drive/folders/1VAdmqdOEFLvnRKkQQidxvGJA_C6S2RWo?usp=sharing)
+and placing them in the `data` folder.
+3. Run the following (may prompt for `sudo` password for dependency installation (e.g.,
 boost libraries) for setting up the original CBP-16 code and pulling in trace files:
     ```shell script
     cd scripts
